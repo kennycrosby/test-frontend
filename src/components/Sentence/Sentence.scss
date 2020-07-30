@@ -1,0 +1,15 @@
+.sentence-wrapper {
+  position: relative;
+}
+
+.sentence {
+  position: absolute;
+  top: 0;
+}
+
+.word {
+  color: #322f3d;
+  font-size: 8vw;
+  display: inline-block;
+  margin-right: 0.2em;
+}

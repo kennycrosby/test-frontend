@@ -1,0 +1,58 @@
+.react-player {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+
+  h1 {
+    font-size: 3vw;
+    color: #fff;
+  }
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0px 3px #fff;
+  transition: all .3s ease;
+
+  &-play {
+    svg {
+      margin-left: 9px;
+    }
+  }
+
+  svg {
+    fill: #fff;
+    width: 50%;
+    height: auto;
+    transition: transform .3s ease;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0px 5px #fff;
+     svg {
+       transform: scale(1.21);
+     }
+  }
+}
